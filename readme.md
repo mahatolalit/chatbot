@@ -19,10 +19,11 @@ This is a local AI chatbot that leverages the Ollama & LangChain framework to ut
    ```bash
    git clone https://github.com/yourusername/hx-01-chatbot.git
    cd hx-01-chatbot
-
+   ```
 ### Install required packages:
-      ```bash
-            pip install langchain-ollama
+   ```bash
+   pip install langchain-ollama
+   ```
 ### Running the ChatBot
 1. Start the Ollama service to run the model locally.
 2. Execute the Python script:
