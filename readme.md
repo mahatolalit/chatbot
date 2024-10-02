@@ -1,7 +1,5 @@
-# HX-01 ChatBot
-
 ## Overview
-HX-01 is a local AI chatbot that leverages the Ollama framework to utilize advanced language models, specifically the Llama3.1 model. This project allows users to interact with the chatbot in a conversational manner, providing accurate and helpful information based on user inputs.
+This is a local AI chatbot that leverages the Ollama & LangChain framework to utilize advanced language models. 
 
 ## Features
 - **Local AI Model Usage**: Runs on your local machine using Ollama to access AI models.
@@ -23,10 +21,12 @@ HX-01 is a local AI chatbot that leverages the Ollama framework to utilize advan
    cd hx-01-chatbot
 
 ### Install required packages:
-1. pip install langchain-ollama
+      ```bash
+            pip install langchain-ollama
 ### Running the ChatBot
 1. Start the Ollama service to run the model locally.
 2. Execute the Python script:
+    ```bash
     python usage.py
 ### Example Interaction
     You: What is your name?
