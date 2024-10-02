@@ -27,7 +27,7 @@ HX-01 is a local AI chatbot that leverages the Ollama framework to utilize advan
 ### Running the ChatBot
 1. Start the Ollama service to run the model locally.
 2. Execute the Python script:
-    python hx01_chatbot.py
+    python usage.py
 ### Example Interaction
     You: What is your name?
     Bot: I am HX-01, a chatbot developed by Draky using the Llama3.1 Model.
